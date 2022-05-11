@@ -1,0 +1,170 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.full {
+  height: 100vh;
+}
+
+.fechar {
+  width: 0 !important;
+  padding: 0;
+  overflow: hidden;
+}
+
+.aside {
+  transition: all .3s ease;
+  overflow-y: scroll;
+}
+.models {
+  display: none;
+}
+.box-notas .list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.box-notas .list .list-item {
+  padding: 8px 16px;
+  transition: all .2s ease;
+  cursor: pointer;
+  border: solid 1px #6C757D;
+  border-radius: 5px;
+}
+
+.box-notas .list .list-item + .list-item {
+  border-top: solid 1px #6C757D;;
+}
+
+.box-notas .list .list-item:hover {
+  background-color: #6C757D;
+}
+
+.list .list-item p {
+  height: 50px;
+}
+
+.edit-header {
+  height: 90px;
+  display: flex;
+}
+
+.edit-header input {
+  width: 100%;
+  display: block;
+  height: 100%;
+  outline: none;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+}
+
+.edit-header input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.edit-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 0;
+
+}
+
+.edit-body textarea {
+  width: 100%;
+  flex: 1;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  resize: none;
+}
+
+.edit-body textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#salvar {
+  height: 45px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.screenFull {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.screenFull .list-item {
+  max-width: 19%;
+}
+
+.screenFull .list-item p {
+  height: 145px;
+}
+
+.menu-aside {
+  max-width: 25%;
+}
+
+@media(min-width: 1114px){
+  .screenFull {
+      justify-content: center;
+    }
+}
+@media(max-width: 1114px) {
+  .screenFull .list-item {
+      max-width: 24%;
+    }
+}
+
+@media(max-width: 830px) {
+  .menu-aside {
+      max-width: 35%;
+    }
+}
+
+@media(max-width: 773px) {
+  .screenFull .list-item {
+    max-width: 32%;
+  }
+}
+
+@media(max-width: 563px) {
+  .screenFull .list-item {
+    max-width: 49%;
+  }
+    .menu-aside {
+      max-width: 40%;
+    }
+}
+
+@media(max-width: 523px) {
+  .screenFull .list-item {
+    max-width: 48%;
+  }
+    .menu-aside {
+      max-width: 0px;
+      padding: 0;
+      overflow: hidden;
+    }
+}
+
+@media(max-width: 383px) {
+  .screenFull .list-item {
+    max-width: 46%;
+  }
+}
+
+@media(max-width: 350px) {
+  .screenFull .list-item {
+    max-width: 100%;
+  }
+}
