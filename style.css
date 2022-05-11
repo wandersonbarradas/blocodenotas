@@ -114,6 +114,10 @@ body {
   max-width: 25%;
 }
 
+.areaEdit {
+  height: 90vh;
+}
+
 @media(min-width: 1114px){
   .screenFull {
       justify-content: center;
