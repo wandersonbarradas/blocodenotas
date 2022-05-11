@@ -103,7 +103,7 @@ body {
 }
 
 .screenFull .list-item {
-  max-width: 19%;
+  width: 19%;
 }
 
 .screenFull .list-item p {
@@ -121,7 +121,7 @@ body {
 }
 @media(max-width: 1114px) {
   .screenFull .list-item {
-      max-width: 24%;
+      width: 24%;
     }
 }
 
@@ -133,13 +133,13 @@ body {
 
 @media(max-width: 773px) {
   .screenFull .list-item {
-    max-width: 32%;
+    width: 32%;
   }
 }
 
 @media(max-width: 563px) {
   .screenFull .list-item {
-    max-width: 49%;
+    width: 49%;
   }
     .menu-aside {
       max-width: 40%;
@@ -148,7 +148,7 @@ body {
 
 @media(max-width: 523px) {
   .screenFull .list-item {
-    max-width: 48%;
+    width: 48%;
   }
     .menu-aside {
       max-width: 0px;
@@ -159,12 +159,12 @@ body {
 
 @media(max-width: 383px) {
   .screenFull .list-item {
-    max-width: 46%;
+    width: 46%;
   }
 }
 
 @media(max-width: 350px) {
   .screenFull .list-item {
-    max-width: 100%;
+    width: 100%;
   }
 }
